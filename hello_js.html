@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Javascriot</title>
+</head>
+<body>
+    <div id="root"> </div>
+    <div id="image"></div>
+    <script>
+        const heading=document.createElement("h1");
+        heading.innerHTML="Hi,Javascript";
+        const root=document.getElementById("root");
+        root.appendChild(heading);
+
+        const paragraph=document.createElement("p");
+        paragraph.innerText="Hi,this is Neha and i am writing my first js program";
+        root.appendChild(paragraph);
+
+        const image=document.createElement("img");
+        image.src="./javascript-logo-7539.png";
+        const img =document.getElementById("image")
+        img.appendChild(image);
+
+
+
+
+    </script>
+    
+</body>
+</html>
