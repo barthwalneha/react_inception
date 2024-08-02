@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 /* 
 Example 1 : h1 using react 
 
@@ -53,12 +56,12 @@ root.render(parent);
 
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child1" }, [
-    React.createElement("h1", {}, "Its Neha"),
-    React.createElement("h2", {}, "Barthwal"),
+    React.createElement("h1", {}, "HTML"),
+    React.createElement("h2", {}, "CSS"),
   ]),
   React.createElement("div", { id: "child2" }, [
-    React.createElement("h1", {}, "Its Neha"),
-    React.createElement("h2", {}, "Barthwal"),
+    React.createElement("h1", {}, "Javascript"),
+    React.createElement("h2", {}, "React"),
   ]),
 ]);
 

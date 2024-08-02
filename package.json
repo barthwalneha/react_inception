@@ -1,0 +1,29 @@
+{
+  "name": "ReactJourney",
+  "version": "1.0.0",
+  "description": "lets start react",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barthwalneha/react_inception.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Neha Barthwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barthwalneha/react_inception/issues"
+  },
+  "homepage": "https://github.com/barthwalneha/react_inception#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
